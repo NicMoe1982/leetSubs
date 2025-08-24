@@ -1,3 +1,5 @@
+import java.util.List;
+
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> answer = new ArrayList<>(n);
@@ -24,5 +26,10 @@ class Solution {
 
         }
         return answer;
+    }
+
+    @Override
+    public String toString() {
+        return "Solution []";
     }
 }
